@@ -40,9 +40,9 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines: 
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
+    - E103, ND Sepal,
+    - Somasundarapalya, HSR Layout Sector 2,
+    - Bangalore - 560102, India.
 email: contact@valtrix.in
 tel: +91 98457 35129
 
