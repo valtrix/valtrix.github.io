@@ -1,10 +1,19 @@
 <div id="footerwrap">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
-                <h4>About</h4>
+            <div class="col-lg-8">
+                <h4>Quick Links</h4>
                 <div class="hline-w"></div>
-                <p>{{ site.about }}</p>
+                <div class="col-lg-4">
+                    <a>About Us</a> <br/>
+                    <a>Management Team</a> <br/>
+                    <a>Careers</a>
+                </div>
+                <div class="col-lg-4">
+                    <a>Blog</a> <br/>
+                    <a>Press</a> <br/>
+                    <a>Contact</a>
+                </div>
             </div>
             <div class="col-lg-4">
                 <h4>Follow us on</h4>
@@ -12,15 +21,6 @@
                 <p>
                     {% for network in site.social %}
                         <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
-                    {% endfor %}
-                </p>
-            </div>
-            <div class="col-lg-4">
-                <h4>Our Bunker</h4>
-                <div class="hline-w"></div>
-                <p>
-                    {% for line in site.address.first.lines %}
-                        {{ line }} <br>
                     {% endfor %}
                 </p>
             </div>
