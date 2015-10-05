@@ -44,12 +44,14 @@ permalink: /contact/
             <h4>Email</h4>
             <div class="hline"></div>
                 <p>
-                    Email: {{ site.email }}
+                    {{ site.email }}
                 </p>
             <h4>Telephone</h4>
             <div class="hline"></div>
                 <p>
-                    Tel: {{ site.tel }}
+                    {% for no in site.tel.first.nos %}
+                        {{ no }} <br>
+                    {% endfor %}
                 </p>
         </div>
     </div><! --/row -->
