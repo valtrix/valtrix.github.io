@@ -26,15 +26,11 @@ colors:  #in hex code if not noted else
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  - title: dribbble
+  - title: linkedin
     url:
   - title: facebook
     url:
   - title: twitter
-    url: 
-  - title: instagram
-    url: 
-  - title: tumblr
     url: 
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
@@ -47,7 +43,7 @@ email: contact@valtrix.in
 tel:
   - nos:
     - +91 98457 35129
-    - +91 98880 22212
+    - +91 99001 04342
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
