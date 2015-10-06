@@ -50,42 +50,28 @@ tel:
     
 # Members information. Shown on About page.
 members:
-  - name: Mark Webber
-    position: CEO
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team01.jpg
+  - name: S Thiruvathodi
+    position: Director & Co-founder
+    text: Shajid is an experienced developer with 13 years of experience. He is an experienced tool developer and has worked on a creating a number of tools which very effective in uncovering bugs from pre-silicon to post-silicon. He has conceived and designed tools from scratch both for CPUs and I/O subsystem. He has also been a modelling engineer and has helped create functional models of ARM A/R/M class processors and micro controllers. He is an avid footballer and takes keen interest in all things technical.
+    img: placeholder.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:name@domain.com
+        url: mailto:sthiruva@valtrix.com
       - title: twitter
-        url: http://twitter.com/handle
-  - name: Paul Jameson
-    position: Lead Designer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team02.jpg
+        url: http://twitter.com/shajidt
+      - title: linkedin
+        url: http://linkedin.com/shajid
+  - name: S Roy Choudhury
+    position: Director & Co-founder
+    text: Bla bla bla
+    img: placeholder.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:name@domain.com
+        url: mailto:deepsrc@valtrix.in
       - title: twitter
-        url: http://twitter.com/handle
-  - name: Laura Sommers
-    position: Lead Developer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team03.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Martin Blunt
-    position: Marketing
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team04.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
+        url: http://twitter.com/deepsrc
+      - title: linkedin
+        url: http://linkedin.com/shubhodeep
     
 # Clients information. Shown on Home and About pages.
 clients:
