@@ -111,17 +111,24 @@ a:focus {
 	color: white;
 }
 
+.footer-links > a {
+	color: white;
+	font-size: 16px;
+}
+
 .navbar-default .navbar-nav > li > a {
 	color: white;
 	font-weight: 700;
 	font-size: 12px;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav > li > a:hover,
+.footer-links > a:hover {
 	color: {{ site.colors.primary }};
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus,
+.footer-links > a:focus {
 	color: {{ site.colors.primary }};
 	background-color: transparent;
 }
