@@ -512,3 +512,11 @@ a.anchor{
     top: -80px; 
     visibility: hidden;
 }
+
+.milestone_tbl_cell {
+    font-size: 18px;
+    vertical-align: top;
+    text-align: left;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
