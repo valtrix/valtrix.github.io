@@ -15,21 +15,22 @@ permalink: /contact/
                 <form role="form" action="http://formspree.io/contact@valtrix.in" method="POST">
                   <div class="form-group">
                     <label for="InputName1">Your Name</label>
-                    <input class="form-control" id="exampleInputEmail1">
+                    <input class="form-control" id="exampleInputEmail1" type="text" name="name">
                   </div>
                   <div class="form-group">
                     <label for="InputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1">
+                    <input type="email" class="form-control" id="exampleInputEmail1" name="_replyto">
                   </div>
                   <div class="form-group">
                     <label for="InputSubject1">Subject</label>
                     <input class="form-control" id="exampleInputEmail1">
                   </div>
+                  <input type="text" name="_gotcha" style="display:none" />
                   <div class="form-group">
                     <label for="message1">Message</label>
                     <textarea class="form-control" id="message1" rows="3"></textarea>
                   </div>
-                  <button type="submit" class="btn btn-theme">Submit</button>
+                  <button type="submit" class="btn btn-theme" value="Send">Submit</button>
                 </form>
         </div><! --/col-lg-8 -->
 
