@@ -50,10 +50,10 @@ tel:
     
 # Members information. Shown on About page.
 members:
-  - name: S Thiruvathodi
+  - name: Shajid Thiruvathodi
     position: Director & Co-founder
-    text: Shajid is an experienced developer with 13 years of experience. He is an experienced tool developer and has worked on a creating a number of tools which very effective in uncovering bugs from pre-silicon to post-silicon. He has conceived and designed tools from scratch both for CPUs and I/O subsystem. He has also been a modelling engineer and has helped create functional models of ARM A/R/M class processors and micro controllers. He is an avid footballer and takes keen interest in all things technical.
-    img: placeholder.jpg
+    text: Shajid is a system software developer with 13 years of experience. He is an experienced tool developer and has worked on a creating a number of tools which very effective in uncovering bugs from pre-silicon to post-silicon. He has conceived and designed tools from scratch both for CPUs and I/O subsystem. He has also been a modelling engineer and has helped create functional models of ARM A/R/M class processors and micro controllers. He is an avid footballer and takes keen interest in all things technical.
+    img: dflt-team-pic.jpg
     social:
       - title: envelope #use for email address
         url: mailto:sthiruva@valtrix.com
@@ -61,10 +61,10 @@ members:
         url: http://twitter.com/shajidt
       - title: linkedin
         url: http://linkedin.com/shajid
-  - name: S Roy Choudhury
+  - name: Shubhodeep Roy Choudhury
     position: Director & Co-founder
     text: Bla bla bla
-    img: placeholder.jpg
+    img: dflt-team-pic.jpg
     social:
       - title: envelope #use for email address
         url: mailto:deepsrc@valtrix.in
