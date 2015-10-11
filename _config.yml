@@ -52,7 +52,7 @@ tel:
 members:
   - name: Shajid Thiruvathodi
     position: Director & Co-founder
-    text: Shajid is a system software developer with 13 years of experience. He is an experienced tool developer and has worked on a creating a number of tools which very effective in uncovering bugs from pre-silicon to post-silicon. He has conceived and designed tools from scratch both for CPUs and I/O subsystem. He has also been a modelling engineer and has helped create functional models of ARM A/R/M class processors and micro controllers. He is an avid footballer and takes keen interest in all things technical.
+    text: Shajid has extensive experience in developing system software and validating complex microprocesors/systems. He has worked in ARM Holdings and IBM Software Labs. A seasoned validation engineer, he has worked on creating a number of RIS and focused validation tools which have been very effective in uncovering bugs from pre-silicon to post-silicon. In ARM, he conceived and designed software tools from scratch for CPU and I/O subsystem. He has also been a modeling engineer and has helped create functional models of ARM A, R and M class processors and micro controllers. In IBM, he was working on development of multiple software tools which were used for the validation of a broad range of PowerPC based systems. He is an avid footballer and takes keen interest in all things technical.
     img: dflt-team-pic.jpg
     social:
       - title: envelope #use for email address
@@ -63,7 +63,7 @@ members:
         url: http://linkedin.com/shajid
   - name: Shubhodeep Roy Choudhury
     position: Director & Co-founder
-    text: Bla bla bla
+    text: Shubhodeep has more than a decade of experience in system validation and EDA/system software development. He has worked in Intel, Mirafra Technologies and IBM Software Labs. In Intel, he was involved in post-silicon validation of x86 based client and server CPUs. He worked on the development of a RIS tool to verify the system coherency and memory ordering logic of Intel processors. He has also been the validation owner of different components in the integrated IO interface logic of a number of Xeon servers where he was instrumental in discovering a number of logic bugs. In Mirafra, he worked on development of a number of EDA software tools. In IBM, he was involved in the development of software tools used for post-silicon validation and characterization of several IBM PowerPC processors. 
     img: dflt-team-pic.jpg
     social:
       - title: envelope #use for email address

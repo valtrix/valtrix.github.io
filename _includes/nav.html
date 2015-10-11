@@ -33,13 +33,13 @@
             <a class="dropdown-toggle" data-toggle="dropdown">PRODUCTS
             <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="{{"/pagenotready/" | prepend: site.baseurl }}">STING</i></a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="{{"/pagenotready/" | prepend: site.baseurl }}">DESIGN/VALIDATION CONSULTATION</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="{{"/sting/" | prepend: site.baseurl }}">STING</a></li>
                 <li role="presentation" class="divider"></li>
                 <li role="presentation"><a role="menuitem" tabindex="-1" href="{{"/pagenotready/" | prepend: site.baseurl }}">UPCOMING PRODUCTS</a></li>
             </ul>
         </li>
 
+        <li {% if page.title == "Services" %}class="active"{% endif %}><a href="{{"/pagenotready/" | prepend: site.baseurl }}">SERVICES</a></li>
         <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{"/contact/" | prepend: site.baseurl }}">CONTACT</a></li>
       </ul>
     </div><!--/.nav-collapse -->
