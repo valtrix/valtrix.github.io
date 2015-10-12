@@ -527,6 +527,6 @@ a.anchor{
     color: {{ site.colors.primary }};
 }
 
-.upprod {
+.upprod_desc {
     font-size: 18px;
 }
