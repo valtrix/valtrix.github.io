@@ -530,3 +530,8 @@ a.anchor{
 .upprod_desc {
     font-size: 18px;
 }
+
+.pagenotready {
+    color: #666;
+    font-weight: bold;
+}
