@@ -524,4 +524,9 @@ a.anchor{
 
 .handwrite {
     font-family: 'Courgette','Kaushan Script',serif;
+    color: {{ site.colors.primary }};
+}
+
+.upprod {
+    font-size: 18px;
 }
