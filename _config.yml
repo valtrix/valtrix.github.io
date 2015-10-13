@@ -59,9 +59,9 @@ members:
       - title: envelope #use for email address
         url: mailto:sthiruva@valtrix.com
       - title: twitter
-        url: http://twitter.com/shajidt
+        url: http://twitter.com/sthiruva
       - title: linkedin
-        url: http://linkedin.com/shajid
+        url: https://in.linkedin.com/pub/shajid-thiruvathodi/6/108/49b
   - name: Shubhodeep Roy Choudhury
     position: Director & Co-founder
     text: Shubhodeep has more than a decade of experience in system validation and EDA/system software development. He has worked in Intel, Mirafra Technologies and IBM Software Labs. In Intel, he was involved in post-silicon validation of x86 based client and server CPUs. He worked on the development of a RIS tool to verify the system coherency and memory ordering logic of Intel processors. He has also been the validation owner of different components in the integrated IO interface logic of a number of Xeon servers where he was instrumental in discovering a number of logic bugs. In Mirafra, he worked on development of a number of EDA software tools. In IBM, he was involved in the development of software tools used for post-silicon validation and characterization of several IBM PowerPC processors. 
