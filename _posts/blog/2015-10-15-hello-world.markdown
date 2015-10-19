@@ -1,14 +1,11 @@
 ---
 layout: post
-title: "Time to change your apps"
-date: 2014-04-25 16:54:46
-author: Admin
-categories: 
-- blog 
-- Wordpress
-- Photoshop
-img: post01.jpg
-thumb: thumb01.jpg
+title: "Hello World"
+date: 2015-10-15 16:54:46
+author: Shubhodeep Roy Choudhury
+categories:
+- Blog
+- General
 ---
 
 <b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
