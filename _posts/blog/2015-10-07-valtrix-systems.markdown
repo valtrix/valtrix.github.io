@@ -6,8 +6,6 @@ author: Shubhodeep Roy Choudhury
 categories: 
 - Blog
 - General
-img: post02.jpg
-thumb: thumb02.jpg
 ---
 
 <b>Valtrix Systems</b> is a startup delivering innovative products and solutions for IP/SoC design and validation.
