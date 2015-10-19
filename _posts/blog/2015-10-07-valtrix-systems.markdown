@@ -1,16 +1,14 @@
 ---
 layout: post
-title:  "Template"
-date:   2015-10-01 00:00:00
-author: Admin
+title:  "Valtrix Systems"
+date:   2015-10-07 10:30:00
+author: Shubhodeep Roy Choudhury
 categories: 
 - Blog
 - General
 img: post02.jpg
 thumb: thumb02.jpg
 ---
-
-This is a markdown based template for Valtrix blog.
 
 <b>Valtrix Systems</b> is a startup delivering innovative products and solutions for IP/SoC design and validation.
 Our solutions are architected to shift-left the design and validation of complex systems resulting in a faster time-to-market at reduced cost and effort. We also provide consultations and service on different aspects of IP/SoC design and validation.

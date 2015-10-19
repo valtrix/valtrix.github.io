@@ -9,14 +9,14 @@
     <h4>Subscribe</h4>
     <div class="hline"></div>
         <p>
-            <p class="rss-subscribe">Subscribe to this blog <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>.</p>
+            <p style="font-size:15px" class="rss-subscribe">Subscribe to this blog <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>.</p>
         </p>
     <div class="spacing"></div>
     <h4>Categories</h4>
     <div class="hline"></div>
-    {% for category in site.categories %}{% unless category.first == "Blog" %}
+    {% for category in site.categories %}{% unless category.first == "blog" %}
         <p>
-            <a href="{{ '/category/#'  | prepend: site.baseurl  }}{{ category | first }}"><i class="fa fa-angle-right"></i> {{ category | first | capitalize }}</a>
+            <a style="font-size:15px" href="{{ '/category/#'  | prepend: site.baseurl  }}{{ category | first }}"><i class="fa fa-angle-right"></i> {{ category | first | capitalize }}</a>
             <span class="badge badge-theme pull-right">{{ category | last | size }}</span>
         </p>
     {% endunless %}{% endfor %}
@@ -28,7 +28,7 @@
         <ul class="popular-posts">
             {% for post in site.categories['blog'] limit:4 %} 
             <div>
-                    <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+                    <p><a style="font-size:15px" href="{{ post.url }}">{{ post.title }}</a></p>
                 <em>Posted on {{ post.date | date_to_string }}</em>
             </div>
             {% endfor %} 
@@ -36,11 +36,11 @@
 
     <div class="spacing"></div>
 
-    <h4>Popular Tags</h4>
+    <h4>Popular Categories</h4>
     <div class="hline"></div>
     <p>
-    {% for category in site.categories %}{% unless category.first == "blog" or category.first == "project" or category.first == "question" %}
-            <a class="btn btn-theme" href="{{ '/category/#'  | prepend: site.baseurl  }}{{ category | first }}" role="button">{{ category | first | capitalize }} ({{ category | last | size }})</a>	         
+    {% for category in site.categories %}{% unless category.first == "blog" %}
+            <a style="font-size:15px" class="btn btn-theme" href="{{ '/category/#'  | prepend: site.baseurl  }}{{ category | first }}" role="button">{{ category | first | capitalize }} ({{ category | last | size }})</a>	         
         {% endunless %}{% endfor %}
     </p>
 </div>
