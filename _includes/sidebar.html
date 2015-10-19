@@ -16,7 +16,7 @@
     <div class="hline"></div>
     {% for category in site.categories %}{% unless category.first == "blog" %}
         <p>
-            <a style="font-size:15px" href="{{ '/category/#'  | prepend: site.baseurl  }}{{ category | first }}"><i class="fa fa-angle-right"></i> {{ category | first | capitalize }}</a>
+            <a style="font-size:15px" href="{{ '/category/#'  | prepend: site.baseurl  }}{{ category | first }}">{{ category | first | capitalize }}</a>
             <span class="badge badge-theme pull-right">{{ category | last | size }}</span>
         </p>
     {% endunless %}{% endfor %}
@@ -28,7 +28,7 @@
         <ul class="popular-posts">
             {% for post in site.categories['blog'] limit:4 %} 
             <div>
-                <p><a style="font-size:15px" href="{{ post.url }}">{{ post.title }}</a></p>
+                <p><a style="font-size:15px" href="{{ post.url }}">{{ post.blogtitle }}</a></p>
                 <em>Posted on {{ post.date | date_to_string }}</em>
             </div>
             {% endfor %} 
