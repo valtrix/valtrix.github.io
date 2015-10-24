@@ -37,10 +37,8 @@ Researching a bit on GCC options, helped me in finding a compile time flag `-fin
 >
 >*Generate instrumentation calls for entry and exit to functions. Just after function entry and just before function exit, the following profiling functions are called with the address of the current function and its call site. (On some platforms, __builtin_return_address does not work beyond the current function, so the call site information may not be available to the profiling functions otherwise.)*
 >
->              void __cyg_profile_func_enter (void *this_fn,
->                                             void *call_site);
->              void __cyg_profile_func_exit  (void *this_fn,
->                                             void *call_site);
+>       void __cyg_profile_func_enter (void *this_fn, void *call_site);
+>       void __cyg_profile_func_exit  (void *this_fn, void *call_site);
 >
 >*The first argument is the address of the start of the current function, which may be looked up exactly in the symbol table.*
 >
