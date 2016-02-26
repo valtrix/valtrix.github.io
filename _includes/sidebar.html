@@ -19,13 +19,12 @@
     <h4>Recent Posts</h4>
     <div class="hline"></div>
         <ul class="popular-posts">
-            {% for category in site.categories %} 
-                {% for post in site.categories[category.first] limit:4 %} 
+            {% assign posts = site.posts %} 
+            {% for post in posts limit:4 %} 
                 <div>
                     <p><a style="font-size:15px" href="{{ post.url }}">{{ post.blogtitle }}</a></p>
                     <em>Posted on {{ post.date | date_to_string }}</em>
                 </div>
-                {% endfor %} 
             {% endfor %} 
         </ul>
 

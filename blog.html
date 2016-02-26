@@ -7,14 +7,13 @@ permalink: /blog/
 <div class="container">
     <div class="row">
         <div class="col-lg-8">
-            {% for category in site.categories %}
-                {% for post in site.categories[category.first] %}
-                    <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.blogtitle }}</h3></a>
-                    <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
-                    {{ post.excerpt | remove: '<p>' | remove: '</p>' }}...
-                    <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
-                    <div class="spacing"></div>
-                {% endfor %}
+            {% assign posts = site.posts %}
+            {% for post in posts %}
+                <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.blogtitle }}</h3></a>
+                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
+                {{ post.excerpt | remove: '<p>' | remove: '</p>' }}...
+                <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
+                <div class="spacing"></div>
             {% endfor %}
         </div>
 

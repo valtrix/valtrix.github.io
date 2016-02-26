@@ -12,7 +12,7 @@ author: Shubhodeep Roy Choudhury
 
 Take a look at [our upcoming products][upcmng-prod] which are in different stages of development currently.
 
-####Why Valtrix?
+#### Why Valtrix?
 The founding team comprises of system validation veterans who bring with them many year's of experience of validating complex microprocessor/system functionalities. We understand the complexity involved in design validation of systems currently under production and realize the importance of having the right methodologies in place to increase the productivity of validation engineers, enable reuse of testing infrastructure and achieve quick coverage goals.
 
 [upcmng-prod]: http://www.valtrix.in/upcoming-products
