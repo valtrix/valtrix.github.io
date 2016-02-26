@@ -3,14 +3,11 @@ layout: post
 title:  "Valtrix Blog"
 blogtitle: "Multiprocessor Baremetal code on dragonboard"
 date:   2016-02-26 00:00:00
-author: sthiruva
-categories:
-- Blog
-- Programming
+author: Shajid T
 ---
 
 
-####The Board
+#### The Board
 ---
 
 Dragon board is a credit card sized development board based on Qualcomm
@@ -21,7 +18,7 @@ You can find more information about the board at the
 
 
 We were able to boot STING on the dragonboard, and faced a number of challenges.
-I am documenting it so that anyone who wants to write and run her own baremetal
+I am documenting <!--more--> it so that anyone who wants to write and run her own baremetal
 app/OS may find it easier to do so after reading this.
 
 <br>
@@ -271,7 +268,7 @@ The bare metal code does not implement any locks, so we use a message passing
 mechanism to make sure that the write by one cpu to the uart does not clobber
 the output of other cpus
 
-Conclusion
+#### Conclusion
 ---
 The Dragonboard is an wonderful little device. Booting [STING][sting_link] on the dragonboard has been very instructive.
 Having booted STING, we wanted to share the details of how we achieved it. Hope
