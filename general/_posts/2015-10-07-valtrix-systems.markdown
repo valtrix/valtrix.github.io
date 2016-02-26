@@ -5,7 +5,6 @@ blogtitle: "Introducing Valtrix Systems"
 date:   2015-10-07 10:30:00
 author: Shubhodeep Roy Choudhury
 categories: 
-- Blog
 - General
 ---
 

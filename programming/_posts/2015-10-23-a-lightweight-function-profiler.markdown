@@ -5,7 +5,6 @@ blogtitle: "A Lightweight Function Entry and Exit Profiler"
 date:   2015-10-23 17:45:00
 author: Shubhodeep Roy Choudhury
 categories: 
-- Blog
 - Programming
 ---
 
