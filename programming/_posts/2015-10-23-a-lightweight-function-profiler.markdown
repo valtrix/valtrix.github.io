@@ -4,8 +4,6 @@ title:  "Valtrix Blog"
 blogtitle: "A Lightweight Function Entry and Exit Profiler"
 date:   2015-10-23 17:45:00
 author: Shubhodeep Roy Choudhury
-categories: 
-- Programming
 ---
 
 Recently, I had been working on a framework for logging of debug and information messages in [Sting][sting]. Sting messages contain lot of information related to test generation and debug which are important for the developer and debugger. Since the code base is quite huge, it is essential to improve the clarity of the messages by annotating them<!--more--> with the names of function module and source file which contain those print statements. Here I will show how the solution for this problem in Sting was developed.

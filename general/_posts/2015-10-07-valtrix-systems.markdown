@@ -4,8 +4,6 @@ title:  "Valtrix Blog"
 blogtitle: "Introducing Valtrix Systems"
 date:   2015-10-07 10:30:00
 author: Shubhodeep Roy Choudhury
-categories: 
-- General
 ---
 
 <b>Valtrix Systems</b> is a startup delivering innovative products and solutions for IP/SoC design and validation. Our solutions are architected to shift-left the design and validation of complex systems resulting in a faster time-to-market at reduced cost and effort. We also provide consultations and service on different aspects of IP/SoC design<!--more--> and validation. Headquartered in Bangalore, India, the team comprises of experienced professionals from the semiconductor industry.
