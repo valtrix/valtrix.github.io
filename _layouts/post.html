@@ -29,9 +29,9 @@ layout: default
             </div>
             <p style="font-size:18px;text-transform:capitalize">
                 Categories:
-                {% for category in page.categories %}{% unless category == "blog" %}
+                {% for category in page.categories %}
                     <a href="{{ '/category/#'  | prepend: site.baseurl  }}{{ category | first }}">{{category}}</a>
-                {% endunless %}{% endfor %}
+                {% endfor %}
             </p>
             <div class="spacing"></div>
             <!-- <h6>SHARE:</h6>

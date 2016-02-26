@@ -11,7 +11,7 @@ permalink: /category/
         <div class="col-lg-8">
 
         <! -- BLOG POSTS LIST -->
-        {% for category in site.categories %}{% unless category.first == "blog" %}
+        {% for category in site.categories %}
 
                 <a class="anchor" id="{{ category.first }}"></a><h4 style="text-transform:capitalize">{{ category.first }}</h4>
                     <div class="hline"></div>
@@ -24,7 +24,7 @@ permalink: /category/
                         {% endfor %}
                     </ul>
 
-        {% endunless %}{% endfor %}
+        {% endfor %}
         </div><! --/col-lg-8 -->
 
         {% include sidebar.html %}
