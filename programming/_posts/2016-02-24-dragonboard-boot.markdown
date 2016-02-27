@@ -223,3 +223,4 @@ The Dragonboard is an wonderful little device. Booting [STING][sting_link] on th
 [hallor_uboot]: https://github.com/hallor/u-boot
 [forum_link]: http://www.96boards.org/forums/topic/u-boot-support-for-dragonboard410c/
 [sting_link]: http://valtrix.in/sting/
+[bm_link]: https://github.com/sthiruva/dragonboard_bm
