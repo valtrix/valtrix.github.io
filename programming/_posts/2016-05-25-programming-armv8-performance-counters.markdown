@@ -92,6 +92,8 @@ This piece of code needs to be run before the start of the instruction stream wh
     // Pseudo code for starting the counting
     // 
 
+    // Set the bitmask in PMCNTENSET to enable CPU counter
+    // and all the implemented event counters
     write_register(PMCNTENSET, 0x80000000 | ((0x1 << num_evnt_cntrs) - 1))
 
     i = 0
@@ -109,6 +111,8 @@ This piece of code needs to be run before the start of the instruction stream wh
 
     write_register(PMCCFILTR, 0x8000000)
 
+    // Start counting by setting PMCR.E after clearing all the
+    // counters by setting PMCR.P and PMCR.C
     pmcr_val = read_register(PMCR)
     write_register(pmcr_val | 0x7)
 
@@ -118,6 +122,7 @@ This piece of code needs to be run just after the end of the instruction stream.
     // Pseudo code for stopping the counting
     // 
 
+    // Stop counting by resetting PMCR.E
     pmcr_val = read_register(PMCR)
     write_register(PMCR, pmcr_val & ~0x7)
 
