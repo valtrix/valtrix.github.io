@@ -92,8 +92,8 @@ This piece of code needs to be run before the start of the instruction stream wh
     // Pseudo code for starting the counting
     // 
 
-    // Set the bitmask in PMCNTENSET to enable CPU counter
-    // and all the implemented event counters
+    // Set the bitmask in PMCNTENSET to enable cycle
+    // counter and all the implemented event counters
     write_register(PMCNTENSET, 0x80000000 | ((0x1 << num_evnt_cntrs) - 1))
 
     i = 0
