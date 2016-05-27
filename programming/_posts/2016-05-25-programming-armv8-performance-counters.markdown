@@ -86,15 +86,17 @@ A setup code first needs to be run in order to record few implementation specifi
         pmceid1_val = read_register(PMCEID1)
     }
 
+    // Enable user mode access of performance monitoring
+    // registers in case the user wants to access it from
+    // EL0
+    pmuserenr_val = read_register(PMUSERENR)
+    write_register(PMUSERENR, pmuserenr_val | 0xD)
+
 This piece of code needs to be run before the start of the instruction stream which needs to be profiled for the performance monitoring data.
 
     //
     // Pseudo code for starting the counting
     // 
-
-    // Set the bitmask in PMCNTENSET to enable cycle
-    // counter and all the implemented event counters
-    write_register(PMCNTENSET, 0x80000000 | ((0x1 << num_evnt_cntrs) - 1))
 
     i = 0
     for (j = 0; j < 64; j++)
@@ -111,6 +113,10 @@ This piece of code needs to be run before the start of the instruction stream wh
 
     write_register(PMCCFILTR, 0x8000000)
 
+    // Set the bitmask in PMCNTENSET to enable cycle
+    // counter and all the implemented event counters
+    write_register(PMCNTENSET, 0x80000000 | ((0x1 << num_evnt_cntrs) - 1))
+
     // Start counting by setting PMCR.E after clearing all the
     // counters by setting PMCR.P and PMCR.C
     pmcr_val = read_register(PMCR)
@@ -122,7 +128,10 @@ This piece of code needs to be run just after the end of the instruction stream.
     // Pseudo code for stopping the counting
     // 
 
-    // Stop counting by resetting PMCR.E
+    // Stop counting by resetting PMCR.E and writing the
+    // bitmask in PMCNTENCLR to disable cycle counter and
+    // all the implemented event counters
+    write_register(PMCNTENCLR, 0x80000000 | ((0x1 << num_evnt_cntrs) - 1))
     pmcr_val = read_register(PMCR)
     write_register(PMCR, pmcr_val & ~0x7)
 
