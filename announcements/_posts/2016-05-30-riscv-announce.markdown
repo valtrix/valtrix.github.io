@@ -27,7 +27,7 @@ The following features are tested and supported in STING at present. These featu
  * Support for HTIF based console
  * Support for generic UART
  * Support for STING's focused test development framework
- * Support for C++ based test algorithms/applications in STING
+ * Support for C++ based test algorithms/applications in STING for a number of architectural use-cases
 <br/>
 <br/>
 
