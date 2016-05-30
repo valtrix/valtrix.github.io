@@ -40,7 +40,7 @@ Support for the following features are going to be added very soon -
 <br/>
 <br/>
 
-We are very excited about the RISC-V architecture and the potential it holds as an open-source ISA. If you need more information about STING or need a demo, please drop an email to contact@valtrix.in
+We are very excited about the RISC-V architecture and the potential it holds as an open-source ISA. If you need more information about STING or need a demo, please drop an email to [contact@valtrix.in][mailto:contact@valtrix.in]
 
 
 [sting_link]: http://valtrix.in/sting/
