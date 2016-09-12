@@ -41,7 +41,7 @@ p {
 	margin-bottom: 12px; 
 	font-family: 'Raleway', 'Lato', sans-serif;
 	font-weight: 400;
-	font-size: 14px; 
+	font-size: 15px; 
 	line-height: 24px;
 	color: {{ site.colors.secondary }}; 
 	margin-top: 10px; 
@@ -153,6 +153,26 @@ a:focus {
 	color: white;
 	font-weight: 600;
 	font-size: 15px;
+}
+
+.upprod_desc {
+    font-size: 16px;
+}
+
+.boxed-header {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    background-color: {{ site.colors.secondary }};
+    border-color: {{ site.colors.secondary }};
+    margin-top: 4px;
+    margin-bottom:4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }
 
 .btn-theme {
@@ -536,10 +556,6 @@ a.anchor{
 .handwrite {
     font-family: 'Courgette','Kaushan Script',serif;
     color: {{ site.colors.primary }};
-}
-
-.upprod_desc {
-    font-size: 18px;
 }
 
 .pagenotready {
