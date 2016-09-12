@@ -56,7 +56,7 @@ tel:
 members:
   - name: Shajid Thiruvathodi
     position: Director & Co-founder
-    text: Shajid is a co-founder of Valtrix. He is a seasoned validation engineer and has worked on creating a number of RIS and focused validation tools which have been very effective in uncovering bugs from pre-silicon to post-silicon. In ARM, Shajid conceived and designed software tools from scratch for CPU and I/O subsystem. He has also been a modeling engineer and has helped create functional models of ARM A, R and M class processors and micro controllers. In IBM, he was working on development of multiple software tools which were used for the validation of a broad range of PowerPC based systems. He is an avid footballer and takes keen interest in all things technical.
+    text: Shajid is a seasoned validation engineer and has worked on creating a number of RIS and focused design verification tools which have been very effective in uncovering bugs from pre-silicon to post-silicon. In ARM, Shajid conceived and designed software tools from scratch for CPU and I/O subsystem. He has also been a modeling engineer and has helped create functional models of ARM A, R and M class processors and micro controllers. In IBM, he was working on development of multiple software tools which were used for the validation of a broad range of PowerPC based systems. He is an avid footballer and takes keen interest in all things technical.
     img: dflt-team-pic.jpg
     social:
       - title: envelope #use for email address
@@ -67,7 +67,7 @@ members:
         url: https://in.linkedin.com/pub/shajid-thiruvathodi/6/108/49b
   - name: Shubhodeep Roy Choudhury
     position: Director & Co-founder
-    text: Shubhodeep is a co-founder of Valtrix. He brings significant experience working in validation of very complex systems at leading semiconductor companies. Prior to founding Valtrix, Shubhodeep was working in Intel where he was involved in design validation of several x86 based client and server systems. In IBM, he was part of a RIS tool development team working on validation and characterization of IBM PowerPC processors, and co-authored numerous patents in the area of system validation techniques. He has a B.Tech. in ECE from the Indian Institute of Technology (IIT), Guwahati.
+    text: Shubhodeep brings significant experience working in validation of very complex systems at leading semiconductor companies. Prior to founding Valtrix, Shubhodeep was working in Intel where he was involved in design validation of several x86 based client and server systems. In IBM, he was part of a RIS tool development team working on validation and characterization of IBM PowerPC processors, and co-authored numerous patents in the area of system validation techniques. He has a B.Tech. in ECE from the Indian Institute of Technology (IIT), Guwahati.
     img: dflt-team-pic.jpg
     social:
       - title: envelope #use for email address

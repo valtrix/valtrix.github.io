@@ -458,9 +458,13 @@ a:focus {
   border-radius: 10px;
 }
 
+.cname {
+    font-size: 20px;
+}
+
 .ctitle {
 	color: {{ site.colors.primary }};
-	font-weight: 700;
+	font-weight: 500;
 	margin-bottom: 15px;
 }
 
