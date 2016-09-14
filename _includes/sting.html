@@ -1,81 +1,228 @@
 <div class="container">
     <div class="row centered">
         <div class="col-lg-12">
-            <h3 style="font-weight:600;text-align:justify"><i>Sting, the flagship product of Valtrix Systems, is an architecture agnostic bare metal software system for development of constrained random, focused and coverage based test stimulus.<br/><br/>Its composed of offline test generators, light-weight device drivers/applications/checkers and micro kernel which can be configured into a portable embedded program as per the needs of the verification environment.<br/><br/>Rich test specification schemes allow any system scenario to get mapped to a test which is portable across pre-silicon simulations, FPGA, emulation and post-silicon. Very debug friendly, scalable and extensible in design. Currently supports ARMv8 and RISC-V CPU implementations in addition to a host of IO protocols like SD/MMC/Ethernet/Primecell and Corelink DMA controllers/SATA/USB etc. Support for functional validation of other CPU and IO IPs is also being added.</i></h3>
+            <h4 style="font-weight:500;text-align:justify">
+                STING, the flagship product of Valtrix Systems, is an embedded operating system (OS) specially designed to serve as a platform for the design verification of IP/SoC implementations. The software system consists of test generators, checkers, device drivers and a light-weight kernel which can be configured into a portable embedded program as per the needs of the verification environment. The program can seamlessly boot on simulation, FPGA prototypes, emulation or silicon and execute the constrained random, directed or coverage based tests that the user programs or requests for.
+            </h4>
         </div><!-- /col-lg-12 -->
     </div><!-- /row-->
-    <div class="hline" style="border-width:1px;padding-top:10px"></div>
     <div class="row centered">
         <div class="col-lg-12">
-            <h2 style="font-weight:100;">Sting has been developed with a vision to solve problems seen in system validation. It embodies the best methodologies and practices in the industry whilst providing innovative solutions for the challenges in your ecosystem.</h2>
-            <h2 style="font-weight:100;">Aiming to be the tool-of-choice for the validation of your mobile, client and server systems.</h2>
+            <h4 style="font-weight:500;text-align:justify">
+                STING is developed with a vision to solve problems commonly seen in design verification and system validation. It embodies the best methodologies and practices in the industry whilst providing innovative solutions for the unique challenges in specific ecosystem. Designed for scalability and extensibility, companies can make full use of it across the spectrum of embedded, client and server SoCs. 
+            </h4>
+        </div><!-- /col-lg-12 -->
+    </div><!-- /row-->
+    <div style="padding-top:20px"></div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="boxed-header">IMPORTANT FEATURES</div>
         </div>
     </div>
     <div class="row">
         <div class="col-lg-6">
-            <h3 class="handwrite">
-                Validation tool that shifts-left
-            </h3>
-            <p class="upprod_desc">Same tool for pre-silicon, emulation, FPGA and post-silicon validation; Test content scales across different hardware/software configurations; Improved throughput for content development and debug; Save on cost, time and resources spent on redundant validation</p>
+            <p>
+                <span class="emph_line_start">Stable and deterministic kernel</span>
+                <span class="upprod_desc">with a tiny memory and instruction footprint ideal for simulation environments</span>
+            </p>
         </div><!-- /row -->
         <div class="col-lg-6">
-            <h3 class="handwrite">
-                Enable concurrency testing in SoC(s)
-            </h3>
-            <p class="upprod_desc">Same tool to stress all IPs in the SoC concurrently; Efficiently cover all the IP cross-products with extensive controls on scheduling of system events.
+            <p>
+                <span class="emph_line_start">Extremely fast test generation and execution</span>
+                <span class="upprod_desc">to cover a large amount of verification space in a small amount of time</span>
+            </p>
         </div><!-- /col-lg-6 -->
     </div><!-- /row -->
     <div class="row">
         <div class="col-lg-6">
-            <h3 class="handwrite">
-                Diverse test stimulus specification mechanisms
-            </h3>
-            <p class="upprod_desc">The tool supports different types of test stimulus specification mechanism; Supports bias based mechanism to generate traffic for random testing needs; Implements a framework to include snippets of ASM like low level programming language for focused tests; Supports a C++ based API to include test scenarios which require complex programming constructs</p>
+            <p>
+                <span class="upprod_desc">Run the same embedded program on</span>
+                <span class="emph_line_start">simulation, FPGA prototype, emulation or silicon</span>
+                <span class="upprod_desc">without any change</span>
+            </p>
         </div><!-- /row -->
         <div class="col-lg-6">
-            <h3 class="handwrite">
-                Large library of test stimulus
-            </h3>
-            <p class="upprod_desc">Ships a large library of test stimulus with the tool; Coverage for common test scenarios like message passing, cacheline sharing between IPs, pipeline hazards etc. provided in the library; The library of test stimulus ensures easy ramp into validation readiness</p>
+            <p>
+                <span class="emph_line_start">Extensive hardware support</span>
+                <span class="upprod_desc">including ARMv8, RISC-V and USB. Check the section below for details</span>
+            </p>
         </div><!-- /col-lg-6 -->
     </div><!-- /row -->
     <div class="row">
         <div class="col-lg-6">
-            <h3 class="handwrite">
-                Extremely user friendly
-            </h3>
-            <p class="upprod_desc">Specially designed user interface to make complex test specification easy; Easily interpretable test report file and debug logs with verbose information which can be used for manual or automated test intent analysis and failure debug; Extended documentation, FAQs and support manuals;</p>
+            <p>
+                <span class="emph_line_start">Generates extremely tight sequences of code</span>
+                <span class="upprod_desc">for faster closure on coverage</span>
+            </p>
         </div><!-- /row -->
         <div class="col-lg-6">
-            <h3 class="handwrite">
-                Easily debug failures
-            </h3>
-            <p class="upprod_desc">Consistent and reliable failure reproduction; Failure reproduction shift-lefts making it easy to recreate a post-si failure in emulation or pre-si; Debug hooks and mechanisms implemented in tool which allow rapid failure debug and resolution; Mechanism to incrementally reduce the test content from failure point for quick triage;</p>
+            <p>
+                <span class="emph_line_start">Interspersed directed and random testing</span>
+                <span class="upprod_desc">for better coverage under different levels of stress</span>
+            </p>
         </div><!-- /col-lg-6 -->
     </div><!-- /row -->
     <div class="row">
         <div class="col-lg-6">
-            <h3 class="handwrite">
-                Create tool extensions easily
-            </h3>
-            <p class="upprod_desc">Tool designed in a manner to let customers create extensions of tool easily for proprietary IPs; Test content management layer lets the native features to be randomized effectively with the new extensions developed; C++ based API makes it easy to develop standalone device drivers;</p>
+            <p>
+                <span class="emph_line_start">Configuration file based input</span>
+                <span class="upprod_desc">to control kernel setup, test generation and execution</span>
+            </p>
         </div><!-- /row -->
         <div class="col-lg-6">
-            <h3 class="handwrite">
-                Ready for use and deployment
-            </h3>
-            <p class="upprod_desc">Sting is ready for use and deployment; Various licensing and support schemes available to fit different kinds of engagement models; Committed to address the validation challenges by working together</p>
+            <p>
+                <span class="emph_line_start">Special kernel and library APIs</span>
+                <span class="upprod_desc">for design verification available to test developers to develop stimulus generators</span>
+            </p>
         </div><!-- /col-lg-6 -->
     </div><!-- /row -->
-    <div class="hline" style="border-width:1px;padding-top:10px;padding-bottom:10px"></div>
-    <div class="row centered">
-        <div class="col-lg-1"> </div>
-        <div class="col-lg-10">
-            <h2 class="handwrite" style="color:black;font-weight:100;text-align:center">Experience the capabilities of Sting and evaluate how it can fit in your validation ecosystem.</h2>
+    <div class="row">
+        <div class="col-lg-6">
+            <p>
+                <span class="emph_line_start">Clock, power, memory and interrupt management</span>
+                <span class="upprod_desc">support provided by kernel to the test generators</span>
+            </p>
+        </div><!-- /row -->
+        <div class="col-lg-6">
+            <p>
+                <span class="emph_line_start">Support for standard verification algorithms</span>
+                <span class="upprod_desc">is available with the library of test stimulus</span>
+            </p>
+        </div><!-- /col-lg-6 -->
+    </div><!-- /row -->
+    <div style="padding-top:20px"></div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="boxed-header">KEY ADVANTAGES AND BENEFITS</div>
         </div>
-        <div class="col-lg-1"> </div>
     </div>
-    <div class="row centered" style="padding-top:10px;padding-bottom:20px">
-        <a href="{{"/contact/" | prepend: site.baseurl }}" class="btn btn-theme" style="font-size:24px">Contact us for a Demo</a>
+    <div class="row">
+        <div class="col-lg-6">
+            <p>
+                <span class="emph_line_start">Shift-left the design verification</span>
+                <span class="upprod_desc">by using the same tool on simulation, emulation, FPGA prototypes and silicon; Test stimulus scales automatically on different hardware/software configurations; Improved throughput for test development and debug; Save on cost, time and resources spent on redundant verification</span>
+            </p>
+        </div><!-- /row -->
+        <div class="col-lg-6">
+            <p>
+                <span class="emph_line_start">Test all IPs at once</span>
+                <span class="upprod_desc">by concurrently enabling traffic; Covers all the IP cross-products thoroughly and throttle the system to its maximum; Advanced CPU and IO scheduling mechanisms in kernel ensures that the coverage goals are met in least possible time</span>
+            </p>
+        </div><!-- /col-lg-6 -->
+    </div><!-- /row -->
+    <div class="row">
+        <div class="col-lg-6">
+            <p>
+                <span class="emph_line_start">Diverse test development mechanisms</span>
+                <span class="upprod_desc">supported in the tool; Bias based mechanism to generate traffic for random testing needs; Supports a framework for development of directed tests using snippets of ASM like low level programming language; Allows C++ based test development for scenarios which require complex programming constructs</span>
+            </p>
+        </div><!-- /row -->
+        <div class="col-lg-6">
+            <p>
+                <span class="emph_line_start">Large library of test stimulus</span>
+                <span class="upprod_desc">shipped with the tool; Coverage for common test scenarios like message passing, memory coherency and consistency, cacheline sharing between IPs, pipeline hazards etc. and device drivers for multiple IPs provided in the library; The library of test stimulus ensures easy ramp into verification readiness</span>
+            </p>
+        </div><!-- /col-lg-6 -->
+    </div><!-- /row -->
+    <div class="row">
+        <div class="col-lg-6">
+            <p>
+                <span class="emph_line_start">User friendly and intuitive design</span>
+                <span class="upprod_desc">makes the tool usage easy for engineers. Specially designed user interface to make complex test specification easy; Easily interpretable test report file and debug logs with verbose information for manual/automated test intent analysis and failure debug; Extended documentation, FAQs and support manuals;</span>
+            </p>
+        </div><!-- /row -->
+        <div class="col-lg-6">
+            <p>
+                <span class="emph_line_start">Ease of failure debug</span>
+                <span class="upprod_desc">facilitated by a host of tool features; Consistent execution environment and reliable failure reproduction makes it easy to recreate a post-si failure in emulation or pre-si; Debug hooks and mechanisms implemented in tool which allow rapid failure debug and resolution; Mechanism to incrementally reduce the test content from failure point for quick triage;</span>
+            </p>
+        </div><!-- /col-lg-6 -->
+    </div><!-- /row -->
+    <div class="row">
+        <div class="col-lg-6">
+            <p>
+                <span class="emph_line_start">Add custom extensions in the tool</span>
+                <span class="upprod_desc">for proprietary IPs developed by companies; Test content management layer lets the native features to be randomized effectively with the new extensions developed; C++ based API makes it easy to develop standalone device drivers;</span>
+            </p>
+        </div><!-- /row -->
+        <div class="col-lg-6">
+            <p>
+                <span class="emph_line_start">Multiple modes of execution</span>
+                <span class="upprod_desc">available for different verification environments; Slower simulations can execute a mode where only the test is run on target and setup/check is done offline; On silicon, all the components can be run on the target for maximum test throughput</span>
+            </p>
+        </div><!-- /col-lg-6 -->
+    </div><!-- /row -->
+    <div style="padding-top:20px"></div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="boxed-header">HARDWARE/IP SUPPORTED</div>
+        </div>
     </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <p class="upprod_desc">STING supports multiple hardware/system architectures, including:</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3">
+            <p><span class="emph_line_start">ARMv8 CPU</span></p>
+        </div>
+        <div class="col-lg-3">
+            <p><span class="emph_line_start">32-bit RISC-V CPU</span></p>
+        </div>
+        <div class="col-lg-3">
+            <p><span class="emph_line_start">64-bit RISC-V CPU</span></p>
+        </div>
+        <div class="col-lg-3">
+            <p><span class="emph_line_start">USB 2.0/3.0</span></p>
+        </div>
+    </div><!-- /row -->
+    <div class="row">
+        <div class="col-lg-3">
+            <p><span class="emph_line_start">NVM Express</span></p>
+        </div>
+        <div class="col-lg-3">
+            <p><span class="emph_line_start">SATA</span></p>
+        </div>
+        <div class="col-lg-3">
+            <p><span class="emph_line_start">ARM PL330 DMA Controller</span></p>
+        </div>
+        <div class="col-lg-3">
+            <p><span class="emph_line_start">ARM DMA330 DMA Controller</span></p>
+        </div>
+    </div><!-- /row -->
+    <div class="row">
+        <div class="col-lg-3">
+            <p><span class="emph_line_start">DDR Memory Controllers</span></p>
+        </div>
+        <div class="col-lg-3">
+            <p><span class="emph_line_start">CAN</span></p>
+        </div>
+        <div class="col-lg-3">
+            <p><span class="emph_line_start">I2C</span></p>
+        </div>
+        <div class="col-lg-3">
+            <p><span class="emph_line_start">SPI</span></p>
+        </div>
+    </div><!-- /row -->
+    <div class="row">
+        <div class="col-lg-3">
+            <p><span class="emph_line_start">SD</span></p>
+        </div>
+        <div class="col-lg-3">
+            <p><span class="emph_line_start">Multi Media Card</span></p>
+        </div>
+        <div class="col-lg-3">
+            <p><span class="emph_line_start">GPIO</span></p>
+        </div>
+        <div class="col-lg-3">
+            <p><span class="emph_line_start">Ethernet</span></p>
+        </div>
+    </div><!-- /row -->
+    <div class="row">
+        <div class="col-lg-12">
+            <p class="upprod_desc">We are continuosly adding support for new system architectures. Kindly contact us in case you would like to check the latest updates to the list or would like us to add support for your IP/hardware</p>
+        </div>
+    </div>
+    <div style="padding-top:20px"></div>
 </div> <!-- /container -->

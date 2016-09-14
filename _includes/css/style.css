@@ -159,6 +159,12 @@ a:focus {
     font-size: 16px;
 }
 
+.emph_line_start {
+    font-size: 16px;
+    font-weight: bold;
+    color: {{site.colors.secondary}};
+}
+
 .boxed-header {
     font-size: 16px;
     font-weight: 500;
@@ -169,8 +175,8 @@ a:focus {
     margin-bottom:4px;
     padding-top: 4px;
     padding-bottom: 4px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     display: inline-block;
     box-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }
@@ -558,7 +564,7 @@ a.anchor{
 }
 
 .handwrite {
-    font-size:16px;
+    font-size:18px;
     font-weight:500;
     font-family: 'Courgette','Kaushan Script',serif;
     color: {{ site.colors.primary }};
