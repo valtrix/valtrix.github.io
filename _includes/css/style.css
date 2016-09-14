@@ -197,6 +197,10 @@ a:focus {
   border-color: {{ site.colors.primary }};
 }
 
+.btn-large {
+    line-height: 2;
+}
+
 .dmbutton:hover,
 .dmbutton:active,
 .dmbutton:focus{
