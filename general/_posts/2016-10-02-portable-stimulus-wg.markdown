@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "Valtrix Blog"
-blogtitle: "Support for Accellera's Portable Stimulus Specification in STING"
+blogtitle: "Support for Accellera's Upcoming Portable Stimulus Specification in STING"
 date:   2016-10-02 09:45:00
 author: Shubhodeep Roy Choudhury
 ---
 
 I went to the 2016 edition of [DVCON India][dvcon_ind_link] last month. Since Valtrix is also working in the area of reusable and portable stimulus, I attended the Accellera update on PSWG. You can read more about Accellera's Portable Stimulus Working Group [here][pswg_link] in case you are not aware of the ongoing effort. Speakers from Mentor Graphics,<!--more--> Cadence, Breker, Synopsys and Vayavya presented the latest status on the progress made with the specification. 
 
-Portable stimulus specification certainly is a very valuable proposition aimed at removing a broad range of redundancies from design verification. The specification will provide mechanisms for verification engineers to target any scenario to be tested. Once the intent is expressed with the syntax supported by the portable stimulus specification, it can be converted into test stimulus using tools (or the secret sauce as the Accellera foil mentions below :wink: ) provided by the EDA vendors. 
+Portable stimulus specification is certainly a very valuable proposition aimed at removing a broad range of redundancies from design verification. The specification will provide mechanisms for verification engineers to target any scenario to be tested. Once the intent is expressed with the syntax supported by the upcoming portable stimulus specification, it can be converted into test stimulus using tools (or the secret sauce as the Accellera foil mentions below :wink: ) provided by the EDA vendors. 
 
 The test stimulus generated would seamlessly run across all the verification environments. As a result, once the test intent is captured, it can be reused throughout the life cycle of design and across multiple projects.
 
