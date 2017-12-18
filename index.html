@@ -17,27 +17,21 @@ permalink: /
             </div>
             <div style="text-align:justify;position:relative;height:500px" class="col-md-4">
                 <i class="fa fa-list"></i>
-                <h4>What's in Pipeline</h4>
+                <h4>Recent Blog Posts</h4>
                 <div class="hline"></div>
-                <table>
-                    <tr>
-                        <td class="milestone_tbl_cell" style="padding-top:5px">1.</td>
-                        <td class="milestone_tbl_cell" style="padding-top:5px">Linux based random/focused verification tool suite</td>
-                    </tr>
-                    <tr>
-                        <td class="milestone_tbl_cell">2.</td>
-                        <td class="milestone_tbl_cell">SoC vendor compliance matrix test suite</td>
-                    </tr>
-                    <tr>
-                        <td class="milestone_tbl_cell">3.</td>
-                        <td class="milestone_tbl_cell">STING based IP verification plans</td>
-                    </tr>
-                    <tr>
-                        <td class="milestone_tbl_cell">4.</td>
-                        <td class="milestone_tbl_cell">Use-case based system verification test suite</td>
-                    </tr>
-                </table>
-                <p><br/><a href="{{"/upcoming-products/" | prepend: site.baseurl }}" style="position:absolute;bottom:20px" class="btn btn-theme">More Info</a></p>
+                <ul class="popular-posts">
+                     {% assign posts = site.posts %} 
+                     {% for post in posts limit:5 %} 
+                         <div>
+                             <p><a style="font-size:15px" href="{{ post.url }}">{{ post.blogtitle }}</a></p>
+                             <em>Posted on {{ post.date | date_to_string }}</em>
+                         </div>
+                     {% endfor %} 
+                 </ul>
+
+                <div class="spacing"></div>
+
+                <p><br/><a href="{{"/upcoming-products/" | prepend: site.baseurl }}" style="position:absolute;bottom:20px" class="btn btn-theme">More Blogs</a></p>
             </div>
         </div>
     </div><! --/container -->
