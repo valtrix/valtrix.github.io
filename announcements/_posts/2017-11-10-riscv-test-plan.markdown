@@ -11,7 +11,8 @@ We now have test plans for the [RISC-V][riscv_link] user level and privileged sp
 ![STINGTestPlan](/assets/img/STING_Test_Plans.png)
 
 <br/>
-Email us in case you are interested in checking out the RISC-V test plans or verification suite.
+[Contact us][valtrix_contact_link] in case you are interested in checking out the RISC-V test plans or verification suite.
 
 [sting_link]: http://valtrix.in/sting/
 [riscv_link]: http://riscv.org
+[valtrix_contact_link]: http://valtrix.in/contact
