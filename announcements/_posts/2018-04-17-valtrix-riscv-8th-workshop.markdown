@@ -6,9 +6,9 @@ date:   2018-04-17 12:00:00
 author: Shubhodeep Roy Choudhury
 ---
 
-[Valtrix][valtrix_link] is going to participate in the [8th RISC-V workshop][rv_ws_link] at Barcelona, Spain in May 2018. Co-hosted by the Barcelona Supercomputing Center (BSC) and Universitat Politècnica de Catalunya (UPC) and sponsored by NXP and Western Digital, this event will<!--more--> bring together the [RISC-V][riscv_link] community to share RISC-V activities underway around the globe, and build consensus on the future evolution of the instruction set.
+[Valtrix][valtrix_link] will participate in the [8th RISC-V workshop][rv_ws_link] at Barcelona, Spain in May 2018. Co-hosted by the Barcelona Supercomputing Center (BSC) and Universitat Politècnica de Catalunya (UPC) and sponsored by NXP and Western Digital, this event will<!--more--> bring together the [RISC-V][riscv_link] community to share RISC-V activities underway around the globe, and build consensus on the future evolution of the instruction set.
 
-Two poster presentations on design verification of RISC-V implementations using [STING][sting_link] are going to be featured in the RISC-V workshop. The complete agenda of the workshop can be found [here][rv_ws_agenda_link].
+Two poster presentations on design verification of RISC-V implementations using [STING][sting_link] will be featured in the RISC-V workshop. The complete agenda of the workshop can be found [here][rv_ws_agenda_link].
 
 The high level details of the two Valtrix poster presentations are given below -
 
