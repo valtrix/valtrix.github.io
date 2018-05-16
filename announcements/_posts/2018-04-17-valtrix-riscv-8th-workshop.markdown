@@ -12,13 +12,13 @@ Two poster presentations on design verification of RISC-V implementations using 
 
 The high level details of the two Valtrix poster presentations are given below -
 
-**Title: Verifying PULPino RISCY Core for a Google Accelerator with STING**
+[Title: Verifying PULPino RISCY Core for a Google Accelerator with STING](/assets/pdf/Verifying_PULPino_RISCY_Core_for_a_Google_Accelerator_with_STING.pdf)
 
 *Authors: Shubhodeep Roy Choudhury and Shajid Thiruvathodi from Valtrix Technologies Pvt. Ltd. and Vaidyanathan Seetharaman, Matt Cockrell, Jon Michelson and Jason Redgrave from Google Inc.*
 
 >Google uses the PULPino RISC-V core RISCY as a job scheduling and dispatch mechanism for a hardware accelerator (similar to a GPU controller). This requires full compliance with the RISC- V RV32I base integer instruction set, standard extensions for integer multiplication and division (‘M’) and compressed instructions (‘C’), and capability to handle interrupts from multiple sources. We used STING, a software-driven verification solution for RISC-V based CPU/SoC implementations, to verify the architectural compliance and functionality of the RISCY core. This verification effort helped uncover 30 RTL, documentation, and toolchain issues in the relatively mature RISCY implementation.
 
-**Title: STING - A Complete RISC-V Functional Verification Solution**
+[Title: STING - A Complete RISC-V Functional Verification Solution](/assets/pdf/STING_A_Complete_RISC-V_Functional_Verification_Solution.pdf)
 
 *Authors: Shubhodeep Roy Choudhury and Shajid Thiruvathodi from Valtrix Technologies Pvt. Ltd.*
 
