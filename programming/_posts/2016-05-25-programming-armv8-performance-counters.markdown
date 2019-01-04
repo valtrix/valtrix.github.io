@@ -10,7 +10,7 @@ Verification engineers often need a measure for the quality of the test stimulus
 
 ARM based systems typically implement an optional non-invasive performance monitoring debug component based on Performance Monitor Unit (PMU) architecture. The ARMv8 applicatons include version 3 of the performance monitors extension i.e. PMUv3. These performance monitors are fairly accurate in the measurements of the different architectural and microarchitectural events supported by the specification.
 
-In this blog, I will explain the programming sequence (along with the pseudo code) for the ARM PMUv3 performance monitors. This is based on the recent implementation in [Sting][sting_link] and can be re-used for any other program.
+In this blog, I will explain the programming sequence (along with the pseudo code) for the ARM PMUv3 performance monitors. This is based on the recent implementation in [STING][sting_link] and can be re-used for any other program.
 <br/>
 <br/>
 
