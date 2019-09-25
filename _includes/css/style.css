@@ -260,8 +260,8 @@ a:focus {
 #headerwrap {
 	background-color: {{ site.colors.primary }};
 	min-height: 0px;
-	padding-top: 100px;
-	padding-bottom: 50px;
+	padding-top: 90px;
+	padding-bottom: 40px;
 	text-align: center;
 }
 
@@ -277,7 +277,7 @@ a:focus {
 
 #headerwrap h1 {
 	color: white;
-	margin-bottom: 25px;
+	margin-bottom: 0px;
 }
 
 #headerwrap .img-responsive {
@@ -288,6 +288,7 @@ a:focus {
 #service {
 	margin-top: 0px;
 	margin-bottom: 0px;
+	background: #f9f9f9;
 }
 
 #service i {
@@ -391,14 +392,14 @@ a:focus {
 
 /* clients logo */
 #cwrap {
-	background: #f7f7f7;
+	background: #ffffff;
 	margin-top: 0px;
-	padding-top: 80px;
-	padding-bottom: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 #cwrap h3 {
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 }
 
 /* Footer */

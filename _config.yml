@@ -51,7 +51,7 @@ tel:
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
-    
+
 # Members information. Shown on About page.
 members:
   - name: Shajid Thiruvathodi
@@ -76,18 +76,21 @@ members:
         url: http://twitter.com/deepsrc
       - title: linkedin
         url: https://in.linkedin.com/pub/shubhodeep-roy-choudhury/6/a98/4a7
-    
+
 # Clients information. Shown on Home and About pages.
-clients:
-  - name: dribbble
-    img: client01.png
-  - name: Code is Poetry
-    img: client02.png
-  - name: Vimeo
-    img: client03.png
-  - name: VimeoPro
-    img: client04.png
-    
+clients_row_1:
+  - name: Google
+    img: google.png
+  - name: Seagate
+    img: seagate_PMS_horizontal_pos.png
+  - name: Imperas
+    img: imperas_logo_no_tagline.jpeg
+  - name: Esperanto
+    img: esperanto-logo-color.png
+clients_row_2:
+  - name: SiFive
+    img: SiFive_Logo_V1.png
+
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
 
