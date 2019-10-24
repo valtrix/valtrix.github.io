@@ -16,7 +16,7 @@ The test stimulus generated would seamlessly run across all the verification env
 
 The foil has been taken from the slides on PSWG update presented in DVCON US 2016 posted [here][pswg_dvcon_us_update] at Accellera's website.
 
-In STING, we support a very elaborate input specification scheme to support different paradigms of functional verification for SoC/IP implementations. Once the portable stimulus model is available, we will evaluate how the syntax and semantics can be mapped to our specification scheme and release our version of "secret sauce". We will also be exploring how our proprietary test applications can be expressed in form of portable stimulus IP for better compatibility.
+In [STING][sting_link], we support a very elaborate input specification scheme to support different paradigms of functional verification for SoC/IP implementations. Once the portable stimulus model is available, we will evaluate how the syntax and semantics can be mapped to our specification scheme and release our version of "secret sauce". We will also be exploring how our proprietary test applications can be expressed in form of portable stimulus IP for better compatibility.
 
 To conclude the blog, Valtrix is fully committed to the PSWG vision and looking forward to the first release of the specification!
 
