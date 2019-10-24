@@ -131,5 +131,5 @@ The function pointer addresses are present in the program binary and can be reso
 So this is how we achieved a lightweight function entry and exit profiling in our program. I hope all the readers find the information given here useful. Feel free to contact me for any questions that you have.
 
 [gprof]:https://sourceware.org/binutils/docs/gprof
-[sting]:http://www.valtrix.in/sting
+[sting]:https://www.valtrix.in/sting
 [addr2line]:https://sourceware.org/binutils/docs/binutils/addr2line.html

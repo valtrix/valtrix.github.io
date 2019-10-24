@@ -26,8 +26,8 @@ The high level details of the two Valtrix poster presentations are given below -
 
 Please email [contact@valtrix.in](mailto:contact@valtrix.in) to set up a meeting at the RISC-V Workshop Barcelona, or to learn more about the verification offerings from Valtrix for RISC-V implementations.
 
-[valtrix_link]: http://valtrix.in
+[valtrix_link]: https://valtrix.in
 [rv_ws_link]: https://tmt.knect365.com/risc-v-workshop-barcelona/
-[riscv_link]: http://riscv.org
-[sting_link]: http://valtrix.in/sting/
+[riscv_link]: https://riscv.org
+[sting_link]: https://valtrix.in/sting/
 [rv_ws_agenda_link]: https://tmt.knect365.com/risc-v-workshop-barcelona/agenda/2

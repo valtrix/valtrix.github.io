@@ -21,6 +21,6 @@ In STING, we support a very elaborate input specification scheme to support diff
 To conclude the blog, Valtrix is fully committed to the PSWG vision and looking forward to the first release of the specification!
 
 [dvcon_ind_link]: https://dvcon-india.org/
-[pswg_link]: http://accellera.org/activities/working-groups/portable-stimulus/
-[pswg_dvcon_us_update]: http://www.accellera.org/images/activities/working-groups/portable-stimulus/PortableStimulusUpdateDVConUS_2016.pdf
-[sting_link]: http://valtrix.in/sting/
+[pswg_link]: https://accellera.org/activities/working-groups/portable-stimulus/
+[pswg_dvcon_us_update]: https://www.accellera.org/images/activities/working-groups/portable-stimulus/PortableStimulusUpdateDVConUS_2016.pdf
+[sting_link]: https://valtrix.in/sting/

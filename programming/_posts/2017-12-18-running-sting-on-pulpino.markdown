@@ -51,10 +51,10 @@ If this interests you, write to us to know how STING can help meet your RISC-V v
 
 <br/>
 
-[sting_link]: http://valtrix.in/sting/
-[riscv_link]: http://riscv.org
-[pulp_link]: http://www.pulp-platform.org/
-[pulp_docs]: http://www.pulp-platform.org/documentation/
+[sting_link]: https://valtrix.in/sting/
+[riscv_link]: https://riscv.org
+[pulp_link]: https://www.pulp-platform.org/
+[pulp_docs]: https://www.pulp-platform.org/documentation/
 [pulp_git_link]: https://github.com/pulp-platform/pulpino
 [valtrix_pulp_git_link]: https://github.com/valtrix/pulpino/tree/pulpino_05f0dbe
 [valtrix_pulp_git_readme]: https://github.com/valtrix/pulpino/blob/pulpino_05f0dbe/STING_README.md

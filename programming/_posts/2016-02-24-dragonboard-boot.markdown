@@ -65,7 +65,7 @@ The changes to u-boot can be found here: [https://github.com/sthiruva/u-boot][st
 
 This is a fork of: [https://github.com/hallor/u-boot][hallor_uboot]
 
-See [http://www.96boards.org/forums/topic/u-boot-support-for-dragonboard410c/][forum_link] for more information.
+See [https://www.96boards.org/forums/topic/u-boot-support-for-dragonboard410c/][forum_link] for more information.
 
 Here is the picture of the board after connecting all the cables and adapter
 
@@ -221,6 +221,6 @@ The Dragonboard is an wonderful little device. Booting [STING][sting_link] on th
 [uartcable]: http://usb2serialcables.com/product/dragonboard-410c-uart-to-usb-adapter-cable/ "UART to USB Adapter Cable"
 [sthiruva_uboot]: https://github.com/sthiruva/u-boot
 [hallor_uboot]: https://github.com/hallor/u-boot
-[forum_link]: http://www.96boards.org/forums/topic/u-boot-support-for-dragonboard410c/
-[sting_link]: http://valtrix.in/sting/
+[forum_link]: https://www.96boards.org/forums/topic/u-boot-support-for-dragonboard410c/
+[sting_link]: https://valtrix.in/sting/
 [bm_link]: https://github.com/sthiruva/dragonboard_bm

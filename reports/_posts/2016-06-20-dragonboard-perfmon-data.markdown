@@ -79,6 +79,6 @@ Feel free to contact us if you have any questions. The detailed report on all th
 <br/>
 
 
-[dragonboard_enabling]: http://valtrix.in/programming/dragonboard-boot
-[perfmon_blog]: http://valtrix.in/programming/programming-armv8-performance-counters
+[dragonboard_enabling]: https://valtrix.in/programming/dragonboard-boot
+[perfmon_blog]: https://valtrix.in/programming/programming-armv8-performance-counters
 [ramspeed_link]: http://alasir.com/software/ramspeed/
