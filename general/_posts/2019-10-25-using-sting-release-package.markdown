@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Valtrix Blog"
+blogtitle: "Using STING Release Packages for RISC-V Verification"
+date:   2019-10-25 12:00:00
+author: Shubhodeep Roy Choudhury
+---
+
+This blog provides an overview of [STING's][sting_link] release mode of operation. STING design verification tool is released to the end user in form of a self extracting script. The script can be used to install the release package in user's environment. Once the package is installed, the user needs to set few environment variables before the STING executable can be built. The video given below demonstrates all the steps involved in generating STING tests using the release package for a 32-bit machine mode-only RISC-V implementation modeled using [Imperas's][imperas_link] riscvOVPsim simulator.
+
+<asciinema-player src="/assets/asciinema/running-sting-on-riscvovpsim.cast" speed="2"></asciinema-player>
+
+The release package contains input configuration files, scripts, test generator and kernel binaries pre-built for a specific DUT (design-under-test). If the DUT does not support floating point extensions, the configuration files controlling the floating point stimulus are not added into the package. The compilation flags (-march/-mabi) used for the build of the test generator and kernel are also set appropriately.
+
+The package also contains a large distribution of (more than 25,000) regression configuration files which can be used to generate interesting stimulus/traffic patterns to exercise different features of any RISC-V implementation. The video given below shows an example of using one of the regression configurations to generate a specific instruction sequence.
+
+<asciinema-player src="/assets/asciinema/building-sting-regress-confs.cast" speed="2"></asciinema-player>
+
+The regression configurations cover the RISC-V ISA, user and privilege specification in great detail. In case all these configurations are required to be run in batch mode, user can make use of STING regression manager utility to do so, as demonstrated in the video given below.
+
+<asciinema-player src="/assets/asciinema/running-sting-regress-manager.cast" speed="2"></asciinema-player>
+
+<script src="/assets/asciinema/asciinema-player.js"></script>
+
+The STING release package also makes the snippet test development framework available to the users. This could serve as a foundation for all the RISC-V stimulus development activities for the users. A more detailed blog on this will be published in near future.
+
+In case the reader is interested in finding out more how STING can be pivotal in solving the challenges of RISC-V verification, feel free to get in touch.
+
+[sting_link]: https://valtrix.in/sting/
+[imperas_link]: http://www.imperas.com/
