@@ -24,7 +24,7 @@ The regression configurations cover the RISC-V ISA, user and privilege specifica
 
 The STING release package also makes the snippet test development framework available to the users. This could serve as a foundation for all the RISC-V stimulus development activities for the users. A more detailed blog on this will be published in near future.
 
-To summarize, STING release packages have been designed to provide a lightweight and effective mechanism to achieve user's verification goals quickly. Write to [contact@valtrix.in][mailto:contact@valtrix.in] to find out how STING can fit in your environment and be pivotal in solving the unique challenges in verification of your RISC-V implementations.
+To summarize, STING release packages have been designed to provide a lightweight and effective mechanism to achieve user's verification goals quickly. Write to [contact@valtrix.in](mailto:contact@valtrix.in) to find out how STING can fit in your environment and be pivotal in solving the unique challenges in verification of your RISC-V implementations.
 
 [sting_link]: https://valtrix.in/sting/
 [imperas_link]: http://www.imperas.com/
