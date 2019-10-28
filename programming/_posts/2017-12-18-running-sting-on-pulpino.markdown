@@ -46,7 +46,7 @@ STING has been successfully ported to the specifications of the PULPino platform
 
 We have plans to run STING extensively on PULPino and make sure that the design is compliant with the RISC-V specification. The test stimulus will be a random mix of instructions supported by the PULPino core, the bias for which can be controlled using configuration files. In addition to the random test content, a large number of focused and corner-case scenarios are also covered using snippets of directed code. The timer, UART and event unit devices are also programmed for concurrency and to allow generation of interrupts at regular intervals during the test execution. The results from test execution on PULPino simulations are compared with the results obtained from running the same test on SPIKE (the RISC-V CPU model) to ensure functionally correct behavior.
 
-If this interests you, write to us to know how STING can help meet your RISC-V verification goals quickly and efficiently.
+If this interests you, write to [contact@valtrix.in][mailto:contact@valtrix.in] to know how STING can help meet your RISC-V verification goals quickly and efficiently.
 <br/>
 
 <br/>
