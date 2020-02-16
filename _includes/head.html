@@ -2,11 +2,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Valtrix Systems is an EDA startup delivering innovative products and solutions for design verification and system validation of RISC-V and ARM based IP/SoC implementations">
+    <meta name="description" content="{% if page.description %} {{ page.description }} {% else %} {{ site.description }} {% endif %}">
     <meta property="st:title" content="Valtrix Systems - The IP/SoC Design Verification Company">
     <meta name="msvalidate.01" content="B6EA51D2D5EC10EAED664E6B8CBA0502" />
     <meta name="author" content="">
-    <!-- <link rel="shortcut icon" href="{{ "/assets/ico/favicon.ico" | prepend: site.baseurl }}"> -->
+    <link rel="shortcut icon" href="{{ "/assets/ico/favicon.ico" | prepend: site.baseurl }}">
 
     <title>{% if page.blogtitle %}{{ page.blogtitle }} - {% endif %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }} - {{ site.punchline}}{% endif %}</title>
 

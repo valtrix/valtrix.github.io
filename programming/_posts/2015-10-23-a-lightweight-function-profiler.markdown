@@ -3,6 +3,7 @@ layout: post
 title:  "Valtrix Blog"
 blogtitle: "A Lightweight Function Entry and Exit Profiler"
 date:   2015-10-23 17:45:00
+description: "A lightweight framework for logging of debug and information messages in STING."
 author: Shubhodeep Roy Choudhury
 ---
 

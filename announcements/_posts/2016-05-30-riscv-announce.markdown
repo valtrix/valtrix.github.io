@@ -3,6 +3,7 @@ layout: post
 title:  "Valtrix Blog"
 blogtitle: "Announcing Support for RISC-V in STING"
 date:   2016-05-30 10:30:00
+description: "Valtrix developed STING available for comprehensive Design Verification of RISC-V ISA based open-source CPU and SoC implementations"
 author: Shajid T
 ---
 

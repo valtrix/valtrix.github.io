@@ -3,6 +3,7 @@ layout: post
 title:  "Valtrix Blog"
 blogtitle: "Support for Accellera's Upcoming Portable Stimulus Specification in STING"
 date:   2016-10-02 09:45:00
+description: "Notes on a session on Accellera Portable Stimulus Specification at DVCON Bangalore"
 author: Shubhodeep Roy Choudhury
 ---
 

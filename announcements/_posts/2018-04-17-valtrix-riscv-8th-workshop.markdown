@@ -3,6 +3,7 @@ layout: post
 title:  "Valtrix Blog"
 blogtitle: "Valtrix at the 8th RISC-V Workshop Barcelona May 2018"
 date:   2018-04-17 12:00:00
+description: "Valtrix will be presenting posters on Design Verification of RISC-V Implementations Using STING at the 8th RISC-V Workshop at Barcelona, Spain in May 2018"
 author: Shubhodeep Roy Choudhury
 ---
 

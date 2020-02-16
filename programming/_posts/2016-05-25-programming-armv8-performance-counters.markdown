@@ -3,6 +3,7 @@ layout: post
 title:  "Valtrix Blog"
 blogtitle: "Programming ARM v8 Performance Monitors"
 date:   2016-05-25 10:30:15
+description: "Programming ARMv8 performance counters for profiling quality of test stimulus in STING"
 author: Shubhodeep Roy Choudhury
 ---
 

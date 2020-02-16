@@ -3,6 +3,7 @@ layout: post
 title:  "Valtrix Blog"
 blogtitle: "Test Plans for RISC-V CPU Specification"
 date:   2017-11-10 12:00:00
+description: "Valtrix developed Verification Test Plans for RISC-V User and Privilege Level Specification are now available with STING based RISC-V Verification"
 author: Shubhodeep Roy Choudhury
 ---
 

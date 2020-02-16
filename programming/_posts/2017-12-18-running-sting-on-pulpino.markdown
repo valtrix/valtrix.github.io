@@ -3,6 +3,7 @@ layout: post
 title:  "Valtrix Blog"
 blogtitle: "Running STING on PULPino Platform"
 date:   2017-12-18 12:30:15
+description: "Enabling STING for design verification of PULPino SoC, a competitive, state-of-the-art 32-bit processor based on the RISC-V architecture, with a rich set of peripherals, and full debug support developed at ETH Zurich and Università di Bologna"
 author: Shubhodeep Roy Choudhury
 ---
 

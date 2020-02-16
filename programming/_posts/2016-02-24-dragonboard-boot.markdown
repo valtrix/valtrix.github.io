@@ -3,6 +3,7 @@ layout: post
 title:  "Valtrix Blog"
 blogtitle: "Enabling Baremetal Multiprocessor Code on Qualcomm Dragonboard 410C"
 date:   2016-02-26 00:00:00
+description: "Booting STING on 64-bit ARMv8 based Qualcomm Dragonboard 410C SoC"
 author: Shajid T
 ---
 

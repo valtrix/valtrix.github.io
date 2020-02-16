@@ -3,10 +3,11 @@ layout: post
 title:  "Valtrix Blog"
 blogtitle: "Using STING Release Packages for Verifying RISC-V Implementations"
 date:   2019-10-25 12:00:00
+description: "Using STING Release Packages for Seamless and Effortless Design Verification of RISC-V implementations"
 author: Shubhodeep Roy Choudhury
 ---
 
-This blog provides an overview of [STING's][sting_link] release mode of operation. STING design verification tool is released to the end user in form of a self extracting script. The script can be used to install the release package in user's environment. Once the package is installed, the user needs to set few environment variables before the STING executable can be built. The video given below demonstrates all the steps involved in generating STING tests using the release package for a 32-bit machine mode-only RISC-V implementation modeled using [Imperas's][imperas_link] riscvOVPsim simulator.
+This blog provides an overview of [STING's][sting_link] release mode of operation. STING design verification tool is released to the end user in form of a self extracting script. The script can be used to install the release package in user's environment. Once the package is installed, the user needs to set few environment variables before the STING executable<!--more--> can be built. The video given below demonstrates all the steps involved in generating STING tests using the release package for a 32-bit machine mode-only RISC-V implementation modeled using [Imperas's][imperas_link] riscvOVPsim simulator.
 
 <br/>
 <asciinema-player src="/assets/asciinema/running-sting-on-riscvovpsim.cast" speed="2"></asciinema-player>

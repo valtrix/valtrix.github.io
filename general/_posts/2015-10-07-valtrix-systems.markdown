@@ -3,6 +3,7 @@ layout: post
 title:  "Valtrix Blog"
 blogtitle: "Introducing Valtrix Systems"
 date:   2015-10-07 10:30:00
+description: "Valtrix Systems is an EDA startup delivering innovative products and solutions for IP/SoC design verification. STING, their flagship product, is a state-of-the-art bare-metal SoC verification tool"
 author: Shubhodeep Roy Choudhury
 ---
 

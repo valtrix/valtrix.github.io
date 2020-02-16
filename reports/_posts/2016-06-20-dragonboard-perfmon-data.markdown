@@ -3,6 +3,7 @@ layout: post
 title:  "Valtrix Blog"
 blogtitle: "Profiling Performance Monitoring Events for STING's Test Stimulus on Qualcomm Dragonboard 410C"
 date:   2016-06-20 11:45:00
+description: "Evaluating quality of STING test stimulus run on Qualcomm Dragonboard 410C SoC"
 author: Shubhodeep Roy Choudhury
 ---
 
