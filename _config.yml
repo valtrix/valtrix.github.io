@@ -79,36 +79,36 @@ members:
   - name: Daniel Borgraeve
     position: VP Sales
     text: Daniel Borgraeve
-    img: dflt-team-pic.jpg
+    img: db.jpeg
     social:
       - title: envelope
-        url: mailto:jjohn@valtrix.in
+        url: mailto:dborgraeve@valtrix.in
       - title: twitter
-        url: http://twitter.com/sthiruva
+        url: http://twitter.com/danielborgraeve
       - title: linkedin
-        url: https://in.linkedin.com/pub/shajid-thiruvathodi/6/108/49b
+        url: https://www.linkedin.com/in/daniel-borgraeve-307106/
   - name: Jevin Saju John
     position: Senior Software Engineer
     text: Jevin Saju John
-    img: dflt-team-pic.jpg
+    img: jsj.jpeg
     social:
       - title: envelope
         url: mailto:jjohn@valtrix.in
       - title: twitter
-        url: http://twitter.com/sthiruva
+        url: http://twitter.com
       - title: linkedin
-        url: https://in.linkedin.com/pub/shajid-thiruvathodi/6/108/49b
+        url: https://www.linkedin.com/in/jevin-saju-john-580285101/
   - name: Rishabh Vaishnav
     position: Software Engineer
     text: Rishabh Vaishnav
-    img: dflt-team-pic.jpg
+    img: rv.jpeg
     social:
       - title: envelope
         url: mailto:rvaishnav@valtrix.in
       - title: twitter
-        url: http://twitter.com/sthiruva
+        url: http://twitter.com
       - title: linkedin
-        url: https://in.linkedin.com/pub/shajid-thiruvathodi/6/108/49b
+        url: https://www.linkedin.com/in/rishabh-vaishnav-25096216b/
   - name: George Jose Srambical
     position: Software Engineer
     text: George Jose Srambical
@@ -117,31 +117,31 @@ members:
       - title: envelope
         url: mailto:gsrambical@valtrix.in
       - title: twitter
-        url: http://twitter.com/sthiruva
+        url: http://twitter.com
       - title: linkedin
-        url: https://in.linkedin.com/pub/shajid-thiruvathodi/6/108/49b
+        url: https://www.linkedin.com/in/george-jose-srambical-b823b978/
   - name: Jerry Joe Thomas
     position: Design Verification Engineer
     text: Jerry Joe Thoma
-    img: dflt-team-pic.jpg
+    img: jjt.jpeg
     social:
       - title: envelope
         url: mailto:jthomas@valtrix.in
       - title: twitter
-        url: http://twitter.com/sthiruva
+        url: http://twitter.com/
       - title: linkedin
-        url: https://in.linkedin.com/pub/shajid-thiruvathodi/6/108/49b
+        url: https://www.linkedin.com/in/jerryjoethomas/
   - name: Raima Chemmanam
     position: Software Engineer
     text: Raima Chemmanam
-    img: dflt-team-pic.jpg
+    img: rc.jpeg
     social:
       - title: envelope
-        url: mailto:jthomas@valtrix.in
+        url: mailto:raima@valtrix.in
       - title: twitter
-        url: http://twitter.com/sthiruva
+        url: http://twitter.com/
       - title: linkedin
-        url: https://in.linkedin.com/pub/shajid-thiruvathodi/6/108/49b
+        url: https://www.linkedin.com/in/raima-chemmanam-a80351105/
 
 # Clients information. Shown on Home and About pages.
 clients_row_1:
