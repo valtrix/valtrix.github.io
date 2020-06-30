@@ -147,17 +147,26 @@ members:
 clients_row_1:
   - name: Google
     img: google.png
+    link: https://www.google.com
   - name: Seagate
     img: seagate_PMS_horizontal_pos.png
+    link: https://www.seagate.com
   - name: Imperas
     img: imperas_logo_no_tagline.jpeg
+    link: https://www.imperas.com
   - name: Esperanto
     img: esperanto-logo-color.png
+    link: https://www.esperanto.ai
 clients_row_2:
   - name: SiFive
     img: SiFive_Logo_V1.png
+    link: https://www.sifive.com
   - name: CDAC
     img: CDAC_LogoTransp.png
+    link: https://www.cdac.in
+  - name: Ventana
+    img: ventana.png
+    link: https://www.ventanamicro.com
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."

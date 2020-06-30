@@ -6,14 +6,18 @@
                 <div class="row" style="margin-top:25px">
                     {% for client in site.clients_row_1 %}
                         <div class="col-lg-3 col-md-3 col-sm-3">
-                            <img src="{{ "/assets/img/clients/" | prepend: site.baseurl }}{{ client.img }}" class="img-responsive" style="margin:0 auto">
+                            <a href="{{ client.link }}" target="_blank">
+                                <img src="{{ "/assets/img/clients/" | prepend: site.baseurl }}{{ client.img }}" class="img-responsive" style="margin:0 auto">
+                            </a>
                         </div>
                     {% endfor %}
                 </div>
                 <div class="row" style="margin-top:25px">
                     {% for client in site.clients_row_2 %}
                         <div class="col-lg-3 col-md-3 col-sm-3">
-                            <img src="{{ "/assets/img/clients/" | prepend: site.baseurl }}{{ client.img }}" class="img-responsive" style="margin:0 auto">
+                            <a href="{{ client.link }}" target="_blank">
+                                <img src="{{ "/assets/img/clients/" | prepend: site.baseurl }}{{ client.img }}" class="img-responsive" style="margin:0 auto">
+                            </a>
                         </div>
                     {% endfor %}
                 </div>
