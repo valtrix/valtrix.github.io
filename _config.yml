@@ -157,12 +157,11 @@ clients_row_1:
   - name: Esperanto
     img: esperanto-logo-color.png
     link: https://www.esperanto.ai
-clients_row_2:
   - name: SiFive
     img: SiFive_Logo_V1.png
     link: https://www.sifive.com
   - name: CDAC
-    img: CDAC_LogoTransp.png
+    img: cdac_logo.png
     link: https://www.cdac.in
   - name: Ventana
     img: ventana.png
