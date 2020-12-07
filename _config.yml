@@ -161,7 +161,7 @@ clients_row_1:
     img: SiFive_Logo_V1.png
     link: https://www.sifive.com
   - name: CDAC
-    img: cdac_logo.png
+    img: CDAC_LogoNew.png
     link: https://www.cdac.in
   - name: Ventana
     img: ventana.png
