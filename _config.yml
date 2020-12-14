@@ -167,6 +167,18 @@ clients_row_1:
     img: ventana.png
     link: https://www.ventanamicro.com
 
+# Client message. Shown on Home and About pages.
+client_messages:
+    - name: Jacob Chang
+      post: Director of Engineering, Sifive
+      mesg: SiFive has the unique challenge of needing to verify highly customized cores that are uniquely suited for each customer. Valtrix has been a valuable partner to SiFive by providing a verification system and methodology that automates the generation of randomized and targeted tests which are customized to the cores that are uniquely generated for our customers.
+    - name: Richard Bohn
+      post: Engineering Director, Seagate Technology
+      mesg: Software developers rely on microprocessors working exactly as specified, which is why thorough verification is the cornerstone of any successful CPU development project. Valtrix's STING design verification platform provides a versatile platform, with strong random-instruction generation capabilities, around which we build our pre-silicon verification infrastructure.
+    - name: Krishnakumar Rao
+      post: Senior Director, C-DAC, Govt. of India
+      mesg: STING design verification platform from Valtrix has helped accelerate development of VEGA series of  RISC-V based  microprocessors. The support provided by Valtrix team has been commendable.
+
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
 
