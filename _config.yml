@@ -54,94 +54,94 @@ tel:
 
 # Members information. Shown on About page.
 members:
-  - name: Shubhodeep Roy Choudhury
-    position: CEO & Co-Founder
-    text: Shubhodeep brings significant experience working in validation of very complex systems at leading semiconductor companies. Prior to founding Valtrix, Shubhodeep was working in Intel where he was involved in design validation of several x86 based client and server systems. In IBM, he was part of a RIS tool development team working on validation and characterization of IBM PowerPC processors, and co-authored numerous patents in the area of system validation techniques. He has a B.Tech. in ECE from the Indian Institute of Technology (IIT), Guwahati.
-    img: src.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:deepsrc@valtrix.in
-      - title: twitter
-        url: http://twitter.com/deepsrc
-      - title: linkedin
-        url: https://in.linkedin.com/pub/shubhodeep-roy-choudhury/6/a98/4a7
-  - name: Shajid Thiruvathodi
-    position: CTO & Co-Founder
-    text: Shajid is a seasoned validation engineer and has worked on creating a number of RIS and focused design verification tools which have been very effective in uncovering bugs from pre-silicon to post-silicon. In ARM, Shajid conceived and designed software tools from scratch for CPU and I/O subsystem. He has also been a modeling engineer and has helped create functional models of ARM A, R and M class processors and micro controllers. In IBM, he was working on development of multiple software tools which were used for the validation of a broad range of PowerPC based systems. He is an avid footballer and takes keen interest in all things technical.
-    img: dflt-team-pic.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:sthiruva@valtrix.in
-      - title: twitter
-        url: http://twitter.com/sthiruva
-      - title: linkedin
-        url: https://in.linkedin.com/pub/shajid-thiruvathodi/6/108/49b
-  - name: Daniel Borgraeve
-    position: VP Sales
-    text: Daniel Borgraeve
-    img: db.jpeg
-    social:
-      - title: envelope
-        url: mailto:dborgraeve@valtrix.in
-      - title: twitter
-        url: http://twitter.com/danielborgraeve
-      - title: linkedin
-        url: https://www.linkedin.com/in/daniel-borgraeve-307106/
-  - name: Jevin Saju John
-    position: Senior Software Engineer
-    text: Jevin Saju John
-    img: jsj.jpeg
-    social:
-      - title: envelope
-        url: mailto:jjohn@valtrix.in
-      - title: twitter
-        url: http://twitter.com
-      - title: linkedin
-        url: https://www.linkedin.com/in/jevin-saju-john-580285101/
-  - name: Rishabh Vaishnav
-    position: Software Engineer
-    text: Rishabh Vaishnav
-    img: rv.jpeg
-    social:
-      - title: envelope
-        url: mailto:rvaishnav@valtrix.in
-      - title: twitter
-        url: http://twitter.com
-      - title: linkedin
-        url: https://www.linkedin.com/in/rishabh-vaishnav-25096216b/
-  - name: George Jose Srambical
-    position: Software Engineer
-    text: George Jose Srambical
-    img: dflt-team-pic.jpg
-    social:
-      - title: envelope
-        url: mailto:gsrambical@valtrix.in
-      - title: twitter
-        url: http://twitter.com
-      - title: linkedin
-        url: https://www.linkedin.com/in/george-jose-srambical-b823b978/
-  - name: Jerry Joe Thomas
-    position: Design Verification Engineer
-    text: Jerry Joe Thoma
-    img: jjt.jpeg
-    social:
-      - title: envelope
-        url: mailto:jthomas@valtrix.in
-      - title: twitter
-        url: http://twitter.com/
-      - title: linkedin
-        url: https://www.linkedin.com/in/jerryjoethomas/
-  - name: Raima Chemmanam
-    position: Software Engineer
-    text: Raima Chemmanam
-    img: rc.jpeg
-    social:
-      - title: envelope
-        url: mailto:raima@valtrix.in
-      - title: twitter
-        url: http://twitter.com/
-      - title: linkedin
-        url: https://www.linkedin.com/in/raima-chemmanam-a80351105/
+    #  - name: Shubhodeep Roy Choudhury
+    #    position: CEO & Co-Founder
+    #    text: Shubhodeep brings significant experience working in validation of very complex systems at leading semiconductor companies. Prior to founding Valtrix, Shubhodeep was working in Intel where he was involved in design validation of several x86 based client and server systems. In IBM, he was part of a RIS tool development team working on validation and characterization of IBM PowerPC processors, and co-authored numerous patents in the area of system validation techniques. He has a B.Tech. in ECE from the Indian Institute of Technology (IIT), Guwahati.
+    #    img: src.jpg
+    #    social:
+    #      - title: envelope #use for email address
+    #        url: mailto:deepsrc@valtrix.in
+    #      - title: twitter
+    #        url: http://twitter.com/deepsrc
+    #      - title: linkedin
+    #        url: https://in.linkedin.com/pub/shubhodeep-roy-choudhury/6/a98/4a7
+    #  - name: Shajid Thiruvathodi
+    #    position: CTO & Co-Founder
+    #    text: Shajid is a seasoned validation engineer and has worked on creating a number of RIS and focused design verification tools which have been very effective in uncovering bugs from pre-silicon to post-silicon. In ARM, Shajid conceived and designed software tools from scratch for CPU and I/O subsystem. He has also been a modeling engineer and has helped create functional models of ARM A, R and M class processors and micro controllers. In IBM, he was working on development of multiple software tools which were used for the validation of a broad range of PowerPC based systems. He is an avid footballer and takes keen interest in all things technical.
+    #    img: dflt-team-pic.jpg
+    #    social:
+    #      - title: envelope #use for email address
+    #        url: mailto:sthiruva@valtrix.in
+    #      - title: twitter
+    #        url: http://twitter.com/sthiruva
+    #      - title: linkedin
+    #        url: https://in.linkedin.com/pub/shajid-thiruvathodi/6/108/49b
+    #  - name: Daniel Borgraeve
+    #    position: VP Sales
+    #    text: Daniel Borgraeve
+    #    img: db.jpeg
+    #    social:
+    #      - title: envelope
+    #        url: mailto:dborgraeve@valtrix.in
+    #      - title: twitter
+    #        url: http://twitter.com/danielborgraeve
+    #      - title: linkedin
+    #        url: https://www.linkedin.com/in/daniel-borgraeve-307106/
+    #  - name: Jevin Saju John
+    #    position: Senior Software Engineer
+    #    text: Jevin Saju John
+    #    img: jsj.jpeg
+    #    social:
+    #      - title: envelope
+    #        url: mailto:jjohn@valtrix.in
+    #      - title: twitter
+    #        url: http://twitter.com
+    #      - title: linkedin
+    #        url: https://www.linkedin.com/in/jevin-saju-john-580285101/
+    #  - name: Rishabh Vaishnav
+    #    position: Software Engineer
+    #    text: Rishabh Vaishnav
+    #    img: rv.jpeg
+    #    social:
+    #      - title: envelope
+    #        url: mailto:rvaishnav@valtrix.in
+    #      - title: twitter
+    #        url: http://twitter.com
+    #      - title: linkedin
+    #        url: https://www.linkedin.com/in/rishabh-vaishnav-25096216b/
+    #  - name: George Jose Srambical
+    #    position: Software Engineer
+    #    text: George Jose Srambical
+    #    img: dflt-team-pic.jpg
+    #    social:
+    #      - title: envelope
+    #        url: mailto:gsrambical@valtrix.in
+    #      - title: twitter
+    #        url: http://twitter.com
+    #      - title: linkedin
+    #        url: https://www.linkedin.com/in/george-jose-srambical-b823b978/
+    #  - name: Jerry Joe Thomas
+    #    position: Design Verification Engineer
+    #    text: Jerry Joe Thoma
+    #    img: jjt.jpeg
+    #    social:
+    #      - title: envelope
+    #        url: mailto:jthomas@valtrix.in
+    #      - title: twitter
+    #        url: http://twitter.com/
+    #      - title: linkedin
+    #        url: https://www.linkedin.com/in/jerryjoethomas/
+    #  - name: Raima Chemmanam
+    #    position: Software Engineer
+    #    text: Raima Chemmanam
+    #    img: rc.jpeg
+    #    social:
+    #      - title: envelope
+    #        url: mailto:raima@valtrix.in
+    #      - title: twitter
+    #        url: http://twitter.com/
+    #      - title: linkedin
+    #        url: https://www.linkedin.com/in/raima-chemmanam-a80351105/
 
 # Clients information. Shown on Home and About pages.
 clients_row_1:
