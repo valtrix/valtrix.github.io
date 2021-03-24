@@ -166,6 +166,9 @@ clients_row_1:
   - name: Ventana
     img: ventana.png
     link: https://www.ventanamicro.com
+  - name: Codasip
+    img: Codasip.png
+    link: https://www.codasip.com
 
 # Client message. Shown on Home and About pages.
 client_messages:
