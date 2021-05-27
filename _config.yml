@@ -169,6 +169,9 @@ clients_row_1:
   - name: Codasip
     img: Codasip.png
     link: https://www.codasip.com
+  - name: StarFive
+    img: Starfive.png
+    link: https://www.starfivetech.com/
 
 # Client message. Shown on Home and About pages.
 client_messages:
