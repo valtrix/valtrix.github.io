@@ -167,11 +167,14 @@ clients_row_1:
     img: ventana.png
     link: https://www.ventanamicro.com
   - name: Codasip
-    img: Codasip.png
+    img: Codasip_Primary_Logo_Blk_RGB.png
     link: https://www.codasip.com
   - name: StarFive
     img: Starfive.png
     link: https://www.starfivetech.com/
+  - name: Aril
+    img: aril_logo-300x88.png
+    link: https://www.arilinc.com
 
 # Client message. Shown on Home and About pages.
 client_messages:
